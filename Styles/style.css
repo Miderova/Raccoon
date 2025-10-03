@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Jingle Berry';
+    src: url('../Fonts/Jingleberry.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+figure,
+blockquote {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Jingle Berry';
+    font-size: 40px;
+    background: url('../Img/sky\(background\).png');
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.menu {
+    height: 130px;
+    background-color: #EBEB3D;
+    box-shadow: -0px 6px 0px #AFAF34;
+    font-size: 120px;
+    color: #CD6D83;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background: url('../Img/raccoon\ tongue.png') center/contain no-repeat;
+    margin-top: 20px;
+    height: 850px;
+}
+
+
+.tongue {
+    background: url('../Img/tongue.png')center/contain no-repeat;
+    width: 130px;
+    height: 98px;
+    position: relative;
+    left: 353px;
+    top: -240px;
+}
+
+.dropbtn {
+    background-color: #EBEB3D;
+    width: 1060px;
+    height: 210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 6px solid #AFAF34;
+    font-family: 'Jingle Berry';
+    padding-top: 40px;
+    font-size: 160px;
+    color: #CD6D83;
+}
+
+.dropdown {
+    position: relative;
+    width: 1060px;
+    margin: 0 auto;
+    top: 400px;
+    height: 200px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #EBEB3D;
+    width: 1060px;
+    top: -100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 80px;
+    color: #CD6D83;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #AFAF34;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #c9c934;
+    ;
+}
