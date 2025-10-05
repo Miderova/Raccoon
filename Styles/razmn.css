@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Jingle Berry';
+    src: url('../Fonts/Jingleberry.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+figure,
+blockquote {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Jingle Berry';
+    font-size: 40px;
+    background: url('../Img/pole.png');
+    
+}
+/* Фиксируем меню сверху */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background-color: #EBEB3D;
+    box-shadow: 0 6px 0 #AFAF34;
+    font-size: 20px;
+    color: #CD6D83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* чтобы было поверх всего */
+}
+
+/* Ссылка "МЕНЮ" */
+.menu-title {
+    font-size: 100px;
+    color: #CD6D83;
+    cursor: pointer;
+}
+
+/* Выпадающий список */
+.dropdown {
+    width: 900px;
+    display: none; /* скрыт по умолчанию */
+    position: absolute;
+    top: 130px; /* сразу под меню */
+    background-color: #EBEB3D;
+    border: 6px solid #AFAF34;
+    padding: 20px;
+    list-style: none;
+    z-index: 999;
+    text-align: center;
+}
+
+/* Каждый элемент списка */
+.dropdown li {
+    margin: 10px 0;
+}
+
+/* Ссылки внутри списка */
+.dropdown li a {
+    color: #CD6D83;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dropdown li a:hover {
+    color: #a2495f;
+}
+
+/* Показываем список при наведении на меню */
+.menu:hover .dropdown {
+    display: block;
+}
+
+/* Чтобы при скролле контент не прятался за фиксированным меню */
+body {
+    padding-top: 130px;
+}
