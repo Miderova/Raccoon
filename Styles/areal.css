@@ -67,22 +67,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* чтобы было поверх всего */
+    z-index: 1000; 
 }
 
-/* Ссылка "МЕНЮ" */
+
 .menu-title {
     font-size: 100px;
     color: #CD6D83;
     cursor: pointer;
 }
 
-/* Выпадающий список */
+
 .dropdown {
     width: 900px;
-    display: none; /* скрыт по умолчанию */
+    display: none; 
     position: absolute;
-    top: 130px; /* сразу под меню */
+    top: 130px; 
     background-color: #EBEB3D;
     border: 6px solid #AFAF34;
     padding: 20px;
@@ -91,12 +91,10 @@ body {
     text-align: center;
 }
 
-/* Каждый элемент списка */
 .dropdown li {
     margin: 10px 0;
 }
 
-/* Ссылки внутри списка */
 .dropdown li a {
     color: #CD6D83;
     font-size: 50px;
@@ -108,12 +106,10 @@ body {
     color: #a2495f;
 }
 
-/* Показываем список при наведении на меню */
 .menu:hover .dropdown {
     display: block;
 }
 
-/* Чтобы при скролле контент не прятался за фиксированным меню */
 body {
     padding-top: 130px;
 }
@@ -344,17 +340,14 @@ body {
     transition: opacity 0.4s ease;
 }
 
-/* изначально показываем первую */
 .board1 {
     opacity: 1;
 }
 
-/* вторая скрыта */
 .board2 {
     opacity: 0;
 }
 
-/* при наведении показываем вторую */
 .board_container:hover .board1 {
     opacity: 0;
 }
