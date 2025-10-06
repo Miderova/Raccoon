@@ -131,7 +131,7 @@ body {
 
 .osoben_section {
     margin: 0 auto;
-    margin-top: 1900px;
+    margin-top: 1200px;
     width: 1200px;
     height: 200px;
     background-color: #EBEB3D;
@@ -147,7 +147,7 @@ body {
 
 .mit_section {
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 0px;
     width: 1200px;
     height: 450px;
     background-color: #EBEB3D;
@@ -166,7 +166,7 @@ body {
     width: 200px;
     height: 200px;
     position: relative;
-    top: 600px;
+    top: 400px;
     left: 1200px;
 }
 
@@ -281,7 +281,7 @@ body {
 
 .istok_section {
     margin: 0 auto;
-    margin-top: 900px;
+    margin-top: 700px;
     width: 1200px;
     height: 250px;
     background-color: #EBEB3D;
@@ -321,7 +321,7 @@ body {
 }
 
 .footer_wrapper {
-    margin-top: 500px;
+    margin-top: 200px;
     height: 100px;
     background-color: #EBEB3D;
     border: 6px solid #AFAF34;
