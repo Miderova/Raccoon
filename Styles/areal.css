@@ -110,14 +110,12 @@ body {
     display: block;
 }
 
-body {
-    padding-top: 130px;
-}
 
 .hero__content {
     width: 1000px;
     height: 800px;
-    margin: 80px auto;
+    margin: 0 auto;
+    margin-top: 200px;
     background-color: #EBEB3D;
     text-align: center;
     border: 6px solid #AFAF34;
@@ -195,7 +193,7 @@ body {
 }
 
 .class__content {
-    margin: 1300px auto;
+    margin: 700px auto;
     width: 1200px;
     height: 330px;
     background-color: #EBEB3D;
@@ -212,9 +210,10 @@ body {
 .class__content1 {
     position: relative;
     left: 330px;
-    margin-top: 400px;
+    margin-top: 200px;
+    padding-left: 30px;
     width: 1000px;
-    height: 560px;
+    height: 600px;
     background-color: #EBEB3D;
     border: 6px solid #AFAF34;
 }
@@ -232,7 +231,7 @@ body {
 }
 
 .pitanie__container {
-    margin: 1600px auto;
+    margin: 1300px auto;
     width: 1000px;
     height: 200px;
     background-color: #EBEB3D;
